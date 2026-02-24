@@ -29,7 +29,7 @@ func main() {
     w.Navigate("https://google.com")
     w.Run()
 }
-            
+           
 # Step 5: Run
 
 go run main.go
