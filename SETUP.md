@@ -15,20 +15,10 @@ go mod init frescobrowser
 # Step 3: Install Webview
 
 go get github.com/webview/webview_go
-Step 4: Put this code in main.go
 
-package main
+# Step 4: Open all the files
 
-import "github.com/webview/webview_go"
-
-func main() {
-    w := webview.New(true)
-    defer w.Destroy()
-    w.SetTitle("Fresco Browser")
-    w.SetSize(800, 600, webview.HintNone)
-    w.Navigate("https://google.com")
-    w.Run()
-}
+Download and open main.go
            
 # Step 5: Run
 
