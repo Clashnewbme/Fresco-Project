@@ -1,16 +1,18 @@
 # Welcome!
 
-This guide will help you set up the Fresco browser.
+This guide will help you set up the Fresco Project.
 
 # Step 1: Install Go (Use Shell to do so)
 
 brew install go
 
+Or install it through the website.
+
 # Step 2: Create the Project
 
-mkdir FrescoBrowser
-cd FrescoBrowser
-go mod init frescobrowser
+mkdir FrescoProject
+cd FrescoProject
+go mod init frescoproject
             
 # Step 3: Install Webview
 
